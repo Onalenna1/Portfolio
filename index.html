@@ -1,0 +1,503 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Onalenna Rantao — Systems Developer & Web Developer based in South Africa."
+    />
+    <title>Onalenna Kearabetswe Rantao | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <a href="#home" class="logo">O.K.<span>.</span>Rantao</a>
+
+      <button
+        class="menu-btn"
+        id="menu-btn"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" id="navbar" role="navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <p class="intro-tag">Available for opportunities</p>
+        <h1>Hi, I'm<br /><span>Onalenna</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p class="bio">
+          Systems Development graduate with a solid grounding in the fundamental
+          principles and methodologies of IT systems. Dedicated to ongoing
+          education and creating a significant influence in the tech space
+          through modern, scalable solutions.
+        </p>
+
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#" class="btn btn-outline" download>Download CV</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-ring"></div>
+        <img
+          src="/Pic.jpeg"
+          alt="Onalenna Rantao"
+        />
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education" id="education">
+      <div class="section-label">Background</div>
+      <h2 class="heading">Education <span>&</span> Experience</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2016 – 2020</div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p>
+              Completed matric with a focus on Mathematics and Physical Science,
+              building a logical foundation for my IT career.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 – 2024</div>
+          <div class="timeline-content">
+            <h3>Diploma in Systems Development</h3>
+            <p>
+              Mastered software engineering principles, system analysis, and
+              programming logic across a comprehensive two-year programme.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 – Present</div>
+          <div class="timeline-content">
+            <h3>Web Development Internship</h3>
+            <p>
+              Gaining hands-on industry experience at Oasis Infobyte, working on
+              real-world web applications and UI/UX design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="section-label">My Work</div>
+      <h2 class="heading">Selected <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/estateza.png" alt="EstateZA — property search homepage" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Tailwind CSS</span>
+            </div>
+            <h4>EstateZA</h4>
+            <p class="project-meta">Web application</p>
+            <p class="project-desc">
+              A property listing platform built for the South African real
+              estate market, with search, filtering, and a modular component
+              structure.
+            </p>
+            <ul>
+              <li>Search with filters for bedrooms, bathrooms, price and type</li>
+              <li>Featured listings with pricing and location details</li>
+              <li>Responsive, modular component architecture</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/clinic-menu.png" alt="Clinic Management System — main menu" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Swing</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <h4>Clinic Management System</h4>
+            <p class="project-meta">Desktop application · 2022</p>
+            <p class="project-desc">
+              A desktop application for managing day-to-day clinic
+              operations, replacing paper-based patient records with a
+              structured digital workflow.
+            </p>
+            <ul>
+              <li>Patient registration with next of kin and chronic conditions</li>
+              <li>Doctor availability and appointment scheduling</li>
+              <li>Role-based login for clinic staff</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/gradlaunch.png" alt="GradLaunch — remote job finder for graduates" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h4>GradLaunch</h4>
+            <p class="project-meta">Web application</p>
+            <p class="project-desc">
+              A remote-job finder built for new graduates, pulling live
+              listings and flagging the ones genuinely suited to someone
+              starting out.
+            </p>
+            <ul>
+              <li>Live job listings via a public jobs API</li>
+              <li>Entry-level detection across junior, graduate and intern roles</li>
+              <li>Flask backend with a searchable, filterable front end</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/nofuzz-kitchen.png" alt="No-Fuzz Kitchen — recipe listing page" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Web App</span>
+            </div>
+            <h4>No-Fuzz Kitchen</h4>
+            <p class="project-meta">Web application</p>
+            <p class="project-desc">
+              A recipe discovery site focused on quick, affordable, no-fuss
+              South African cooking — searchable by category and budget.
+            </p>
+            <ul>
+              <li>Recipe search and category filters</li>
+              <li>Recipe cards with time, servings and cost indicators</li>
+              <li>Clean, browsable layout for everyday recipes</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/fishchips.png" alt="Fish and Chips ordering system" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Swing</span>
+            </div>
+            <h4>Fish &amp; Chips Ordering System</h4>
+            <p class="project-meta">Desktop application</p>
+            <p class="project-desc">
+              A point-of-sale style desktop application for a takeaway
+              counter, handling order entry, item selection and payment
+              processing.
+            </p>
+            <ul>
+              <li>Configurable menu items with quantities</li>
+              <li>Order total, amount paid and change calculation</li>
+              <li>Fast-entry interface built for counter staff</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/blossom-petal.png" alt="Blossom and Petal flower shop homepage" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h4>Blossom &amp; Petal</h4>
+            <p class="project-meta">Web application</p>
+            <p class="project-desc">
+              A landing page and storefront concept for a flower delivery
+              business, focused on clean visual presentation and a clear
+              call to action.
+            </p>
+            <ul>
+              <li>Hero section with brand messaging and calls to action</li>
+              <li>Shop, catalog and contact navigation</li>
+              <li>Elegant layout suited to a small e-commerce brand</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="images/projects/temp-converter.png" alt="Temperature Converter tool" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h4>Temperature Converter</h4>
+            <p class="project-meta">Web utility</p>
+            <p class="project-desc">
+              A lightweight utility tool for converting temperature values
+              between units, built with a simple, focused interface.
+            </p>
+            <ul>
+              <li>Single-input conversion with unit selection</li>
+              <li>Minimal, distraction-free interface</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="section-label">What I Do</div>
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box" data-reveal>
+          <div class="service-icon"><i class="bx bx-code-alt"></i></div>
+          <h4>Web Development</h4>
+          <p>
+            Building interactive, responsive websites using PHP, MySQL,
+            JavaScript, and modern HTML5/CSS3 techniques.
+          </p>
+          <div class="service-arrow"><i class="bx bx-right-arrow-alt"></i></div>
+</div>
+        <div class="service-box" data-reveal>
+          <div class="service-icon"><i class="bx bxl-java"></i></div>
+          <h4>Java Development</h4>
+          <p>
+            Object-oriented programming, system methodologies, and desktop
+            application development using NetBeans.
+          </p>
+          <div class="service-arrow"><i class="bx bx-right-arrow-alt"></i></div>
+        </div>
+
+        <div class="service-box" data-reveal>
+          <div class="service-icon"><i class="bx bx-data"></i></div>
+          <h4>Database Design</h4>
+          <p>
+            Designing and implementing relational databases (SQL) for real-life
+            software systems and data integrity.
+          </p>
+          <div class="service-arrow"><i class="bx bx-right-arrow-alt"></i></div>
+</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p>
+            I'm currently open to new opportunities. Whether you have a project
+            in mind or just want to say hello — my inbox is open.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="bx bx-envelope"></i>
+              <span>kearabetswerantao831@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="bx bx-map"></i>
+              <span>South Africa</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+          <input type="hidden" name="subject" value="New message from your portfolio site" />
+          <input type="checkbox" name="botcheck" style="display: none" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jane Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jane@example.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="topic"
+              placeholder="Project inquiry"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <button
+            type="submit"
+            class="btn btn-primary btn-full"
+            id="submit-btn"
+          >
+            <span class="btn-text">Send Message</span>
+            <i class="bx bx-send"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="#home" class="logo">O<span>.</span>Rantao</a>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <p class="copyright">© 2026 Onalenna Rantao. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      (function () {
+        var form = document.getElementById("contact-form");
+        var status = document.getElementById("form-status");
+        var submitBtn = document.getElementById("submit-btn");
+        var btnText = submitBtn ? submitBtn.querySelector(".btn-text") : null;
+
+        if (!form) return;
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          var accessKey = form.querySelector('input[name="access_key"]').value;
+          if (!accessKey || accessKey === "YOUR_WEB3FORMS_ACCESS_KEY") {
+            status.textContent =
+              "Form isn't fully set up yet — add a Web3Forms access key to activate it.";
+            status.classList.add("error");
+            return;
+          }
+
+          submitBtn.disabled = true;
+          if (btnText) btnText.textContent = "Sending...";
+          status.textContent = "";
+          status.classList.remove("error", "success");
+
+          var formData = new FormData(form);
+
+          fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: { Accept: "application/json" },
+            body: formData,
+          })
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (data) {
+              if (data.success) {
+                status.textContent =
+                  "Thanks — your message has been sent! I'll get back to you soon.";
+                status.classList.add("success");
+                form.reset();
+              } else {
+                status.textContent =
+                  "Something went wrong sending your message. Please try again.";
+                status.classList.add("error");
+              }
+            })
+            .catch(function () {
+              status.textContent =
+                "Something went wrong sending your message. Please try again.";
+              status.classList.add("error");
+            })
+            .finally(function () {
+              submitBtn.disabled = false;
+              if (btnText) btnText.textContent = "Send Message";
+            });
+        });
+      })();
+    </script>
+  </body>
+</html>
